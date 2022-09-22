@@ -3,7 +3,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 
  <?$APPLICATION->IncludeComponent(
 	"intervolga:class",
-	"",
+	"default",
 	Array(
 		"AJAX_MODE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
